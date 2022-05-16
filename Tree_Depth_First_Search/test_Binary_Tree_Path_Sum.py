@@ -4,8 +4,9 @@ from typing import Deque
 import unittest
 
 '''
-https://www.educative.io/courses/grokking-the-coding-interview/xV7E64m4lnz
-Given a binary tree, populate an array to represent its level-by-level traversal. You should populate the values of all nodes of each level from left to right in separate sub-arrays.
+https://www.educative.io/courses/grokking-the-coding-interview/RMlGwgpoKKY
+Given a binary tree and a number ‘S’, find if the tree has a path from 
+root-to-leaf such that the sum of all the node values of that path equals ‘S’.
 '''
 class TreeNode:
   def __init__(self, val):
